@@ -1,9 +1,43 @@
 ---
 layout: default
 ---
+<section class="bg-dark background-multiply pt220 pb220 pt-xs-120 pb-xs-120 overlay image-bg parallax">
+    <div class="background-image-holder">
+        <img alt="image" class="background-image" src="/assets/img/{{ page.image }}">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-title page-title-4 bg-primary bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="font-weight:900;margin:0;" class="mb-xs-24 uppercase">{{ page.title }}</h3>
+            </div>
+            <div class="col-md-12" style="color:#fff">
+                
+            </div>
+        </div>
+        
+    </div>
+</section>
+
 <section>
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p class="lead">
+                	<h3 style="font-weight:900;" class="mb40 mb-xs-24">{{ page.subheader }}</h3>
+                    {{ page.description }}
+                </p>
+            </div>
+        </div>
+        <div class="row">
 			<div class="col-sm-4 text-left">
 				<div class="feature boxed cast-shadow-light"> 
 					<img alt="Pic" class="image-large inline-block mb24" src="/assets/img/model-1.png">
@@ -50,5 +84,5 @@ layout: default
 				</div>
 			</div>
 		</div>
-	</div>
+    </div>
 </section>

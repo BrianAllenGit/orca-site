@@ -14,11 +14,11 @@ layout: default
     </div>
 </section>
 
-<section class="page-title page-title-4 bg-dark bg-secondary">
+<section class="page-title page-title-4 bg-primary bg-secondary">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="uppercase mb0">{{ page.title }}</h3>
+                <h3 style="font-weight:900;margin:0;" class="mb-xs-24 uppercase">{{ page.title }}</h3>
             </div>
             <div class="col-md-12" style="color:#fff">
                 
@@ -31,14 +31,25 @@ layout: default
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-sm-offset-1 text-center">
-                <h3 class="uppercase color-primary mb40 mb-xs-24">{{ page.subheader }}</h3>
+
+            <div class="col-sm-6 text-left">
                 <p class="lead">
+                	<h3 style="font-weight:900;" class="mb40 mb-xs-24">{{ page.subheader }}</h3>
                     {{ page.description }}
                 </p>
             </div>
-            <div class="col-sm-2 col-sm-offset-1 text-center">
-                asdasdasdasdasd
+
+            <div class="col-sm-4 col-sm-offset-2 text-center bg-primary">
+            	
+                <h4 style="font-weight:900;padding-top:20px;" class="uppercase mb40 mb-xs-24">Which ORCA Is Right For You?</h4>
+
+                <img src="/assets/img/og25-nowrap.jpg" style="padding-bottom:50px;">
+
+                <h5>
+                    <b>Speak with one of our Sales Representatives now to find the ORCA that best suits your business needs.</b>
+                </h5>
+
+                <a class="btn btn-rounded" href="/contact"><b>Contact Us</b></a>
             </div>
         </div>
     </div>

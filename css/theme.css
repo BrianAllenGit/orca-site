@@ -43,8 +43,8 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 13px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 30px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
   overflow-x: hidden;
@@ -419,6 +419,7 @@ p.lead {
 }
 .sub {
   font-size: 12px;
+  font-weight: 900;
 }
 @media all and (max-width: 767px) {
   p.lead {
@@ -911,7 +912,7 @@ nav .btn,
   height: 55px;
 }
 .logo {
-  max-height: 60%;
+  max-height: 90%;
 }
 .logo-light {
   display: none;
@@ -2863,7 +2864,7 @@ button[type="submit"] .form-loading {
 }
 .page-title-3,
 .page-title-4 {
-  height: 240px;
+  height: 200px;
 }
 .page-title-4 .breadcrumb {
   position: relative;
@@ -4993,10 +4994,12 @@ section + .portfolio-pullup {
 /*!---------- 36. FOOTERS ----------*/
 footer.bg-dark a {
   color: #fff;
+  font-size: 13px !important;
+  line-height: 20px;
 }
 
 .footer-sub {
-  padding-left: 40px;
+  padding-left: 0px;
 }
 
 

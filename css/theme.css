@@ -918,8 +918,8 @@ nav .btn,
   display: none;
 }
 nav.nav-centered .logo {
-  max-height: 64px;
-  margin: 64px 0 40px 0;
+  max-height: 80px;
+  margin: 10px 0 10px 0;
 }
 nav.bg-dark .logo-light {
   display: inline;
@@ -2893,6 +2893,8 @@ button[type="submit"] .form-loading {
 }
 .link-list {
   line-height: 32px;
+  font-size: 13px;
+  line-height: 20px;
 }
 .link-list a:after {
   content: "\e628";

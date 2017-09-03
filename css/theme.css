@@ -28,7 +28,7 @@
  24. Galleries
  25. Intros
  26. Shop
- 27. Video
+ 27. Videof
  28. Blog
  29. Image Blocks
  30. Portfolio
@@ -572,7 +572,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 96px 0;
+  padding: 96px 0px 0px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -3521,7 +3521,7 @@ img {
   opacity: 1;
 }
 .lightbox-grid li:hover {
-  opacity: .9;
+  opacity: .7;
 }
 .square-thumbs li {
   height: 285px;

@@ -29,6 +29,15 @@ layout: default
 				<form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
 					<input type="text" class="validate-required" name="name" placeholder="Your Name">
 					<input type="text" class="validate-required validate-email" name="email" placeholder="Email Address">
+					<div class="select-option">
+                        <i class="ti-angle-down"></i>
+                        <select class="validate-required" name="product-interested-in">
+                            <option selected="" value="Default">Which EWD are you interested in?</option>
+                            <option value="OG25">OG25</option>
+                            <option value="OG50">OG50</option>
+                            <option value="OG100">OG100</option>
+                        </select>
+                    </div>
 					<textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
 					<button type="submit">Send Message</button>
 				</form>

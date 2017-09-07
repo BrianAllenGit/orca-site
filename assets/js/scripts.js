@@ -726,7 +726,7 @@ $(document).ready(function() {
             submitButton = thisForm.find('button[type="submit"]'),
             error = 0,
             originalError = thisForm.attr('original-error'),
-            preparedForm, iFrame, userEmail, userFullName, userFirstName, userLastName, successRedirect, formError, formSuccess;
+            preparedForm, iFrame, userEmail, product-interested-in,  userFullName, userFirstName, userLastName, successRedirect, formError, formSuccess;
 
         // Mailchimp/Campaign Monitor Mail List Form Scripts
         iFrame = $(thisForm).find('iframe.mail-list-form');
